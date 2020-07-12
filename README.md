@@ -6,6 +6,7 @@ Squeezelite with camillaDSP integration setup
 The two script's make it possible to easy change filters when running the squeezelite / CamillaDSP combo.
 
 Place CamillaDSP.sh and filter.sh in /home/tc directory
+
 Chmod +x both files to make them executeable
 
 Execute filter.sh like this :
