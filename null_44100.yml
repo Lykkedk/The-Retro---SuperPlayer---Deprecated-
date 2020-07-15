@@ -1,7 +1,7 @@
 ---
 devices:
   samplerate: 44100
-  buffersize: 4096 #8192
+  chunksize: 4096 #8192
   target_level: 2048 #4096
   adjust_period: 5
 
