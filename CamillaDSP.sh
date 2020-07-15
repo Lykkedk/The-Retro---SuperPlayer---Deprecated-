@@ -1,6 +1,6 @@
 #!/bin/sh
 
-FILTER="RP_red_44100.yml"
+FILTER="null_44100.yml"
 FILTER_DESC="0 - DEFAULT filter"
 
 FILTER_1="Filter_test_1"
