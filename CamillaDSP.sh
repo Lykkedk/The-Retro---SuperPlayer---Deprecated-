@@ -19,8 +19,8 @@ FILTER_5="Filter_test_5"
 FILTER_5_DESC="5 - Description"
 
 FILTER_DIR="/home/tc/DSP_Engine/filters/"
-# Enable if using websocket server
-# OPTIONS="-p3011"
+# Comment[#] out if NOT using websocket server
+OPTIONS="-p3011"
 # ================================
 DESC="CamillaDSP Engine"
 DAEMON=/home/tc/DSP_Engine/camilladsp
