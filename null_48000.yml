@@ -1,0 +1,40 @@
+---
+devices:
+  samplerate: 48000
+  buffersize: 4096 #8192
+  target_level: 2048 #4096
+  adjust_period: 5
+
+  capture:
+    type: Alsa
+    channels: 2
+    device: "camilla_in"
+    format: S32LE
+  playback:
+    type: Alsa
+    channels: 2
+    device: "sound_out"
+    format: S32LE
+
+filters:
+  clipgain_L:
+    type: Gain
+    parameters:
+      gain: -0.0
+      inverted: false
+
+  clipgain_R:
+    type: Gain
+    parameters:
+      gain: -0.0
+      inverted: false
+
+pipeline:
+- type: Filter
+  channel: 0
+  names:
+    - clipgain_L
+- type: Filter
+  channel: 1
+  names:
+    - clipgain_R
