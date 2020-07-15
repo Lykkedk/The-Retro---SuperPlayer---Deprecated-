@@ -28,6 +28,7 @@ echo
 echo "Starting squeezelite with no filters"
 sleep 0.5
 # Enter the correct string below for starting squeezelite without filters
+# This starts the default/normal squeezelite without filters
 sudo squeezelite -n NO_DSP_DAC -o sound_out -a 160:4::1 -b 10000:20000 -U -U -z
 # =======================================================================
 echo
@@ -53,6 +54,7 @@ sudo /home/tc/CamillaDSP.sh start
 echo "Starting squeezelite @ loopback (with filters)"
 sleep 0.5
 # Enter the correct string below for starting squeezelite with filters
+# This starts my squeezelite-custom with a filter
 sudo /mnt/mmcblk0p2/tce/squeezelite-custom -n DSP_DAC -o squeeze -a 160:4::1 -b 10000:20000 -r 44100-192000:2500 -U -U -z
 # ====================================================================
 echo
@@ -78,6 +80,7 @@ sudo /home/tc/CamillaDSP.sh start_1
 echo "Starting squeezelite @ loopback (with filters)"
 sleep 0.5
 # Enter the correct string below for starting squeezelite with filters
+# This starts my squeezelite-custom with a filter
 sudo /mnt/mmcblk0p2/tce/squeezelite-custom -n DSP_DAC -o squeeze -a 160:4::1 -b 10000:20000 -r 44100-192000:2500 -U -U -z
 # ====================================================================
 echo
@@ -103,6 +106,7 @@ sudo /home/tc/CamillaDSP.sh start_2
 echo "Starting squeezelite @ loopback (with filters)"
 sleep 0.5
 # Enter the correct string below for starting squeezelite with filters
+# This starts my squeezelite-custom with a filter
 sudo /mnt/mmcblk0p2/tce/squeezelite-custom -n DSP_DAC -o squeeze -a 160:4::1 -b 10000:20000 -r 44100-192000:2500 -U -U -z
 # ====================================================================
 echo
@@ -128,6 +132,7 @@ sudo /home/tc/CamillaDSP.sh start_3
 echo "Starting squeezelite @ loopback (with filters)"
 sleep 0.5
 # Enter the correct string below for starting squeezelite with filters
+# This starts my squeezelite-custom with a filter
 sudo /mnt/mmcblk0p2/tce/squeezelite-custom -n DSP_DAC -o squeeze -a 160:4::1 -b 10000:20000 -r 44100-192000:2500 -U -U -z
 # ====================================================================
 echo
@@ -153,6 +158,7 @@ sudo /home/tc/CamillaDSP.sh start_4
 echo "Starting squeezelite @ loopback (with filters)"
 sleep 0.5
 # Enter the correct string below for starting squeezelite with filters
+# This starts my squeezelite-custom with a filter
 sudo /mnt/mmcblk0p2/tce/squeezelite-custom -n DSP_DAC -o squeeze -a 160:4::1 -b 10000:20000 -r 44100-192000:2500 -U -U -z
 # ====================================================================
 echo
@@ -178,6 +184,7 @@ sudo /home/tc/CamillaDSP.sh start_5
 echo "Starting squeezelite @ loopback (with filters)"
 sleep 0.5
 # Enter the correct string below for starting squeezelite with filters
+# This starts my squeezelite-custom with a filter
 sudo /mnt/mmcblk0p2/tce/squeezelite-custom -n DSP_DAC -o squeeze -a 160:4::1 -b 10000:20000 -r 44100-192000:2500 -U -U -z
 # ====================================================================
 echo
