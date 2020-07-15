@@ -3,7 +3,8 @@
 # ========================================== #
 #  Squeezelite / CamillaDSP starter script!  #
 #  ***     Easy change of filters       ***  #
-#  JesperLykke (lykkedk) 2020                #
+#                                            #
+#        JesperLykke (lykkedk) 2020          #
 #                                            #
 #  Execute with /home/tc/filter.sh nofilter  #
 #  Execute with /home/tc/filter.sh filter_1  #
@@ -11,6 +12,17 @@
 #  Execute with /home/tc/filter.sh filter_3  #
 #  Execute with /home/tc/filter.sh filter_4  #
 #  Execute with /home/tc/filter.sh filter_5  #
+# ========================================== #
+#  The filters are defined in the            #
+#  CamillaDSP.sh script                      #
+# ========================================== #
+#  It's also possible to use differents      #
+#  squeezelite's at different's filters      #
+#  by changing the line(s) below which       #
+#  are starting squeezelite e.g.             #
+#  /mnt/mmcblk0p2/tce/special-squeezelite_1  #
+#  /mnt/mmcblk0p2/tce/special-squeezelite_2  #
+#  Etc...                                    #
 # ========================================== #
 
 case "$1" in
