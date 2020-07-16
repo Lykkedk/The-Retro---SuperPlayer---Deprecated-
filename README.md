@@ -1,6 +1,6 @@
 ## SuperPlayer DSP\_Engine / CamillaDSP, Custom-Squeezelite & pCP Combo
 
-## SuperPlayer changes fir-filters when samplerates change on the fly 
+## SuperPlayer changes fir-filters on the fly when samplerate changes 
 
 ![SuperPlayer Logo](/SuperPlayer.png)
 
