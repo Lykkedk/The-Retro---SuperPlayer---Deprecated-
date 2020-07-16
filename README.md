@@ -1,8 +1,33 @@
 ## SuperPlayer DSP\_Engine / CamillaDSP, Custom-Squeezelite & pCP Combo
 
+## SuperPlayer changes fir-filters when samplerates change on the fly 
+
 ![SuperPlayer Logo](/SuperPlayer.png)
 
 *My workshop SuperPlayer testrig* 
+
+### My journey into the DSP / DRC world:
+
+Around feburary 2020 i started looking into the possiblities to make some correction for my room & speakers\
+Not easy to get started, but i learned the basic and still learning ofcause ;-)\
+Around the same time, the camilladsp thread over at diyaudio started\
+CamillaDSP is the convolver/DSP engine i use for mine corrections, and they do make a difference.
+
+I'am a long time diyaudio, electronics guy who had build a ton of differents stuff within many years now\
+I like the combination of microprocessors and audio setup, gives a hole lot of possibilities.
+
+I started around 2012-2013 with programming the raspberry pi as a player for my Logitech Media Server (LMS), using the TinyCore or more like PiCore distribution\
+Later some clever guy's expanded this and did the piCorePlayer, which is a very good and solid platform for us audiophile raspberry pi guy's
+
+So, as i know the background and OS which is underneeth the pCP i figured out howto set it up for my needs\
+The possibility to have an player which automatically change fir-filters etc... when a samplerate is detected\
+The samplerate detection is a hackup UP squeezelite player, which i did with some help from my older son ;-)
+
+https://www.diyaudio.com/forums/pc-based/349818-camilladsp-cross-platform-iir-fir-engine-crossovers-correction-etc.html
+https://www.picoreplayer.org/
+http://tinycorelinux.net/ & http://forum.tinycorelinux.net/index.php/board,57.0.html
+
+### Instructions to setup SuperPlayer / howto
 
 ### Download and install piCorePlayer (pCP):
 
