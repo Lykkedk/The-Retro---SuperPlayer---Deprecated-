@@ -1,4 +1,6 @@
 
+# PLEASE continue to this repo :: https://github.com/Lykkedk/SuperPlayer-v8.0.0---SamplerateChanger-v1.0.0
+
 # Deprecated - But hey it still works!
 
 ## SuperPlayer DSP\_Engine / CamillaDSP, Custom-Squeezelite & pCP Combo
