@@ -1,5 +1,5 @@
 
-## PLEASE continue to this repo :: 
+## PLEASE continue to this, my new main-repo :: 
 https://github.com/Lykkedk/SuperPlayer-v8.0.0---SamplerateChanger-v1.0.0
 
 
